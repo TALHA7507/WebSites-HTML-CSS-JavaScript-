@@ -1,4 +1,3 @@
-
 *,
 *::after,
 *::before {
@@ -429,8 +428,8 @@ body {
 
 #footer h2 {
   text-align: center;
-  font-size: 1.8rem;
-  padding: 2.6rem;
+  font-size: 1.0rem;
+  padding: 0.5rem;
   font-weight: 500;
   color: #fff;
   background: rgb(65, 65, 65);
