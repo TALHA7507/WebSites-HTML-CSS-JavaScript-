@@ -359,7 +359,7 @@ textarea {
 }
 .btn2 {
   border-radius: 15px;
-  color: #fff;
+  color: (rgb(1, 102, 177));
   margin-top: 18px;
   padding: 10px;
 }
@@ -370,8 +370,9 @@ footer {
   align-items: center;
   padding: 1rem 2rem;
   width: 100%;
-  background-color: #333232;
-  color: white;
+  background-color: transparent;
+  color: rgb(1, 102, 177);
+  position: relative;
 }
 
 
