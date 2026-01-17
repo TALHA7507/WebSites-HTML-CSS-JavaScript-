@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Baloo Bhai 2", cursive;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -19,7 +20,6 @@ nav {
   overflow: hidden;
 }
 
-
 ul {
   display: flex;
   list-style: none;
@@ -27,14 +27,15 @@ ul {
   color: #fff;
   gap: 1.2rem;
 }
+
 nav a {
   color: rgb(1, 102, 177);
   text-decoration: none;
   position: relative;
   display: inline-block;
   transition: all 0.3s ease;
-
 }
+
 a:hover {
   background-color: rgba(245, 245, 245, 0.449);
   border-radius: 10px;
@@ -42,12 +43,14 @@ a:hover {
   border: solid 1px rgb(1, 102, 177);
   border-color: rgb(1, 102, 177);
 }
+
 .logo {
   justify-content: flex-start;
   align-items: flex-start;
   font-size: 2rem;
   color: rgb(1, 102, 177);
 }
+
 .btn {
   margin-top: 30px;
   color: white;
@@ -61,6 +64,7 @@ img {
   object-fit: cover;
   object-position: center;
 }
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     url('https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg');
@@ -70,6 +74,7 @@ header {
   height: 100vh;
   transition: 1.3s ease-in-out;
 }
+
 #home {
   display: flex;
   text-align: center;
@@ -81,10 +86,12 @@ header {
   text-align: center;
   text-size-adjust:
 }
+
 .overlay {
   background: rgb(0, 0, 0, -5);
   height: 100vh;
 }
+
 @media screen and (max-width: 768px) {
   #mobile {
     display: block;
@@ -139,8 +146,8 @@ header {
   grid-gap: 20px 40px;
   background: rgb(245, 242, 242);
   min-height: 100vh;
-  /* margin-bottom: 20px; */
 }
+
 .heading {
   background: rgb(245, 242, 242);
   color: rgb(1, 102, 177);
@@ -149,11 +156,13 @@ header {
   grid-column: 1/-1;
   text-align: center;
 }
+
 .heading > h3 {
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 5px;
 }
+
 .card {
   display: grid;
   position: relative;
@@ -163,14 +172,17 @@ header {
   margin: 10px 20px;
    transition: filter 0.4s ease, transform 0.4s ease;
 }
+
 #menu:hover .card {
   filter: blur(4px);
 }
+
 #menu .card:hover {
   filter: blur(0);
   transform: scale(1.05);
   z-index: 2;
 }
+
 .card img {
   position: relative;
   width: 100%;
@@ -179,35 +191,38 @@ header {
   border-radius: 15px 15px 0 0;
 }
 
-
-
-
 .card:hover img {
   transform: scale(1.05);
 }
+
 .details {
   padding: 20px 10px;
   display: grid;
   grid-template-rows: auto 1fr 50px;
   grid-row-gap: 15px;
 }
+
 .details-sub {
   display: grid;
   grid-template-columns: auto auto;
 }
+
 .details-sub h5 {
   font-weight: 600;
   font-size: 18px;
 }
+
 .price {
   text-align: right;
 }
+
 .details p {
   color: #6f6f6f;
   font-size: 15px;
   line-height: 25px;
   align-self: stretch;
 }
+
 .details button {
   border: solid 1px rgb(1, 102, 177);
   color: rgb(1, 102, 177);
@@ -284,6 +299,7 @@ button:hover {
 #about {
   padding: 25px 0;
 }
+
 .about_row {
   display: flex;
   justify-content: center;
@@ -291,6 +307,7 @@ button:hover {
   flex-wrap: wrap;
   padding: 0 100px;
 }
+
 .about_column {
   flex: 1;
 }
@@ -302,6 +319,7 @@ button:hover {
   object-fit: fill;
   margin: auto;
 }
+
 .title {
   color: #373333;
   margin-bottom: 30px;
@@ -314,12 +332,14 @@ button:hover {
   color: white;
   min-height: 100vh;
 }
+
 .title1 {
   color: #373333;
   margin-bottom: 30px;
   padding: 50px 0 30px 0;
   text-align: center;
 }
+
 form {
   width: 450px;
   background-color: white;
@@ -330,26 +350,26 @@ form {
   margin-bottom: 10px;
   border-radius: 20px;
 }
+
 .inp_box {
   width: 350px;
   height: 37px;
-  /* margin-top: 20px; */
   margin: 25px 45px 0 45px;
-
   padding: 0 10px;
   border-radius: 14px;
   border: 1px solid #777;
   outline: none;
 }
+
 .text_area {
   height: 160px;
   padding-top: 10px;
 }
+
 .btn2 {
   border-radius: 20px;
   margin: 20px 45px;
   padding: 0 10px;
-  /* margin: auto; */
   width: 30%;
 }
 
@@ -357,6 +377,7 @@ textarea {
   height: 150px;
   padding-top: 10px;
 }
+
 .btn2 {
   border-radius: 15px;
   color: (rgb(1, 102, 177));
@@ -376,22 +397,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* login or signup portion css */
-
-
-
-
-/* ===== AUTH MODAL ===== */
 .auth-modal {
   position: fixed;
   inset: 0;
@@ -410,7 +415,6 @@ footer {
   visibility: visible;
 }
 
-/* Box */
 .auth-box {
   background: #fff;
   width: 380px;
@@ -426,7 +430,6 @@ footer {
   transform: translateY(0) scale(1);
 }
 
-/* Close */
 .auth-close {
   position: absolute;
   top: 15px;
@@ -436,7 +439,6 @@ footer {
   color: #444;
 }
 
-/* Title */
 .auth-box h2 {
   color: #0166b1;
   margin-bottom: 5px;
@@ -448,7 +450,6 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Inputs */
 .auth-box input {
   width: 100%;
   padding: 12px 14px;
@@ -465,7 +466,6 @@ footer {
   box-shadow: 0 0 8px rgba(1,102,177,0.3);
 }
 
-/* Main Button */
 .auth-main-btn {
   width: 100%;
   padding: 12px;
@@ -483,7 +483,6 @@ footer {
   box-shadow: 0 10px 25px rgba(1,102,177,0.4);
 }
 
-/* Switch */
 .auth-switch {
   margin-top: 18px;
   font-size: 14px;
@@ -496,20 +495,17 @@ footer {
   cursor: pointer;
 }
 
-/* Navbar layout fix */
 #navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Auth buttons container */
 .auth-nav {
   display: flex;
   gap: 12px;
 }
 
-/* Auth buttons */
 .auth-nav button {
   all: unset;
   padding: 6px 12px;
@@ -522,7 +518,6 @@ footer {
   transition: all 0.3s ease;
 }
 
-/* SAME hover animation as navbar links */
 .auth-nav button:hover {
   background-color: rgba(245, 245, 245, 0.45);
   border-color: rgb(1, 102, 177);
@@ -530,7 +525,3 @@ footer {
   display: inline-block;
   transition: all 0.3s ease;
 }
-
-
-
-
